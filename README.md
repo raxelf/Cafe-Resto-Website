@@ -35,9 +35,3 @@ Make sure you have the requirements before starting:
 <div id="previews">
     
 </div>
-
-## 🛠️ Unimplemented
-
-<div id="unimplemented">
-    
-</div>
