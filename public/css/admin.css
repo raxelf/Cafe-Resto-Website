@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --primaryColor: #F6B805;
+    --blackColor: #1E1E1E;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.brand-collapsed{
+    width: 100px;
+    height: 40px;
+}
+.brand-collapsed-mbl{
+    width: 80px;
+    height: 30px;
+}
+
+.active{
+    color: #FFF !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    background: #F6B805 !important;
+}
+.activedata{
+    color: #F6B805 !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+
+.sidebar-link:hover{
+    background: #F6B805 !important;
+    color: #FFF !important;
+
+}
+
+::placeholder {
+    color: rgba(30, 30, 30, 0.25);
+    opacity: 1; /* Firefox */
+}
+  
+::-ms-input-placeholder { /* Edge 12 -18 */
+    color: rgba(30, 30, 30, 0.25);
+}
+
+#kategori-table{
+    width: 100%; 
+    border-collapse: collapse;
+}
+
+#kategori-table th { 
+	background: var(--primaryColor); 
+	color: #fff; 
+	font-weight: 600; 
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 19px;
+}
+
+#kategori-table td{ 
+    padding: 20px; 
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%;
+    background: #FFF;
+}
+
+.checked-label{
+    color: #FFF !important;
+}

@@ -1,0 +1,55 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+
+    # Protect sensitive files and directories
+    RedirectMatch 404 /\.env
+    RedirectMatch 404 /\.git
+    RedirectMatch 404 /storage/.*\.yml$
+    RedirectMatch 404 /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+
+    # Block access to hidden files and directories
+    RedirectMatch 404 /\.(git|svn|ht|env|DS_Store|gitignore|composer|ini|sh|sql|log|md|json|lock|dist)$
+
+    # Disable directory listing
+    Options -Indexes
+
+    # Disable server signature
+    ServerSignature Off
+
+    # Block access to sensitive server files
+    <FilesMatch "^\.">
+        Order allow,deny
+        Deny from all
+    </FilesMatch>
+
+    # Set security headers (adjust as needed)
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set X-XSS-Protection "1; mode=block"
+
+    # Prevent hotlinking of images
+    RewriteCond %{HTTP_REFERER} !^$
+    RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?raxelf\.my.id [NC]
+    RewriteRule \.(jpg|jpeg|png|gif)$ - [NC,F,L]
+
+</IfModule>
+
+# Protect .env and .git directories
+<FilesMatch "^\.env">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+<DirectoryMatch "^\.git">
+    Order allow,deny
+    Deny from all
+</DirectoryMatch>

@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Shojumaru&display=swap');
+
+:root {
+    --primaryColor: #F6B805;
+    --blackColor: #1E1E1E;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.active{
+    color: #F6B805;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.activeFilter{
+    border-radius: 20px !important;
+    background: #F6B805 !important;
+    color: #FFF !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+}
+
+.bannerText{
+    bottom: 200px;
+}
+
+.mapOppa{
+    bottom: 200px;
+}
+
+.productTop{
+    bottom: 200px;
+}
+
+#productImage{
+    bottom: 70px;
+}
+
+span.inner {
+    color: rgba(0, 0, 0, 0.25);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+span.outer {
+    color: red;
+    text-decoration: line-through;
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.slide-up {
+    animation: slideUp 0.5s ease-in-out;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+}
+
+.slide-down {
+    animation: slideDown 0.5s ease-in-out;
+}
+
+
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.fade-out {
+    animation: fadeOut 1s ease-in-out;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.ellipsis {
+    font-weight: bold;
+    margin-left: 5px; 
+}
+
+.selectedPayment{
+    border-radius: 20px;
+    border: 3px solid #F6B805;
+    background: #FFF;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+@media(max-width:768px) {
+    .card {
+        width: 90%
+    }
+}
+
+.card{
+    border: none;
+}
+
+#details {
+    font-weight: 400
+}
+
+.info {
+    padding: 5% 8%
+}
+
+.info .col-5 {
+    padding: 0
+}
+
+#heading {
+    color: grey;
+    line-height: 6vh
+}
+
+#progressbar {
+    margin-bottom: 3vh;
+    overflow: hidden;
+    color: rgb(252, 103, 49);
+    padding-left: 0px;
+    margin-top: 3vh
+}
+
+#progressbar li {
+    list-style-type: none;
+    font-size: medium;
+    width: 25%;
+    float: left;
+    position: relative;
+    font-weight: 400;
+    color: rgb(160, 159, 159)
+}
+
+#progressbar #step1:before {
+    content: "";
+    color: rgb(252, 103, 49);
+    width: 5px;
+    height: 5px;
+    margin-left: 0px !important
+}
+
+#progressbar #step2:before {
+    content: "";
+    color: #fff;
+    width: 5px;
+    height: 5px;
+    margin-left: 32%
+}
+
+#progressbar #step3:before {
+    content: "";
+    color: #fff;
+    width: 5px;
+    height: 5px;
+    margin-right: 32%
+}
+
+#progressbar #step4:before {
+    content: "";
+    color: #fff;
+    width: 5px;
+    height: 5px;
+    margin-right: 0px !important
+}
+
+#progressbar li:before {
+    width: 10px;
+    height: 10px;
+    line-height: 40px;
+    display: block;
+    font-size: 12px;
+    background: #ddd;
+    border-radius: 50%;
+    margin: auto;
+    z-index: -1;
+    margin-bottom: 1vh
+}
+
+#progressbar li:after {
+    content: '';
+    height: 2px;
+    background: #ddd;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    margin-bottom: 2vh;
+    top: 1px;
+    z-index: 1
+}
+
+.progress-track {
+    padding: 0 8%
+}
+
+#progressbar li:nth-child(2):after {
+    margin-right: auto
+}
+
+#progressbar li:nth-child(1):after {
+    margin: auto
+}
+
+#progressbar li:nth-child(3):after {
+    float: left;
+    width: 68%
+}
+
+#progressbar li:nth-child(4):after {
+    margin-left: auto;
+    width: 132%
+}
+
+#progressbar li.active {
+    color: #F6B805
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+    background: #F6B805
+}
+
+@media screen and (max-width: 992px) {
+    .bannerText{
+        bottom: 0px;
+    }
+    .mapOppa{
+        bottom: 0px;
+    }
+    .productTop{
+        bottom: 0px;
+    }
+    #productImage{
+        bottom: 0px;
+    }
+}
