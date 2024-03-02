@@ -43,7 +43,7 @@ Make sure you have the requirements before starting:
 <h3>
     Admin Dashboard
 </h3>
-    <img src="https://ibb.co/ZLKVQV9" />
+    <img src="https://imgur.com/a/Z9F9U2V" />
     <img src="https://ibb.co/qmZzQ1N" />
     <img src="https://ibb.co/WsYccwD" />
 </div>
