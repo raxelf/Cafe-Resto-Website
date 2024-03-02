@@ -408,7 +408,8 @@
         
     </script>
     {{-- map --}}
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmI0Fe8hrtG2vxlCaegaTtp1fRL0rJ7h4&libraries=places"></script>
+    {{-- Please Insert your Google Map Key--}}
+    <script src="https://maps.googleapis.com/maps/api/js?key=[YOURKEY]&libraries=places"></script>
 
     <script>
         var map;
