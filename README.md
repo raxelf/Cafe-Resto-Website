@@ -33,5 +33,17 @@ Make sure you have the requirements before starting:
 ## 📹 Previews
 
 <div id="previews">
-    
+    <h3>
+      Landing Page
+   </h3>
+    <img src="https://ibb.co/ncSbDJ9" />
+    <img src="https://ibb.co/2KVhMf1" />
+    <img src="https://ibb.co/8K3Y80b" />
+
+<h3>
+    Admin Dashboard
+</h3>
+    <img src="https://ibb.co/ZLKVQV9" />
+    <img src="https://ibb.co/qmZzQ1N" />
+    <img src="https://ibb.co/WsYccwD" />
 </div>
