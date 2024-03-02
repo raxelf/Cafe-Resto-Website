@@ -43,7 +43,7 @@ Make sure you have the requirements before starting:
 <h3>
     Admin Dashboard
 </h3>
-    <blockquote class="imgur-embed-pub" lang="en" data-id="a/Z9F9U2V" data-context="false" ><a href="//imgur.com/a/Z9F9U2V"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-    <img src="https://ibb.co/qmZzQ1N" />
-    <img src="https://ibb.co/WsYccwD" />
+<img src="https://i.imgur.com/kmNzfDu.png" />
+<img src="https://ibb.co/qmZzQ1N" />
+<img src="https://ibb.co/WsYccwD" />
 </div>
