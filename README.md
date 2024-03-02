@@ -24,7 +24,7 @@ Follow the below instructions to get started:
 Make sure you have the requirements before starting:
 
 - Any Code Editor.
-- Basic Knowledge about HTML, CSS, LARAVEL, PHP.
+- Basic Knowledge about HTML, CSS, LARAVEL, PHP, API.
 
 ## ⬇️ Download
 
