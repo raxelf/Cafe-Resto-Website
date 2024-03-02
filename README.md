@@ -36,14 +36,21 @@ Make sure you have the requirements before starting:
     <h3>
       Landing Page
    </h3>
-    <img src="https://ibb.co/ncSbDJ9" />
-    <img src="https://ibb.co/2KVhMf1" />
-    <img src="https://ibb.co/8K3Y80b" />
+    <img src="https://i.imgur.com/aOEYOj0.png" />
+    <img src="https://i.imgur.com/k9YgeTy.png" />
+    <img src="https://i.imgur.com/GQ38dvf.png" />
 
+<h3>
+  Order
+</h3>
+    <img src="https://i.imgur.com/7Y5bbue.png" />
+    <img src="https://i.imgur.com/wUk4DxY.png" />
+    <img src="https://i.imgur.com/Zl9GLDE.png" />
+    
 <h3>
     Admin Dashboard
 </h3>
 <img src="https://i.imgur.com/kmNzfDu.png" />
-<img src="https://ibb.co/qmZzQ1N" />
-<img src="https://ibb.co/WsYccwD" />
+<img src="https://i.imgur.com/AQqORY4.png" />
+<img src="https://i.imgur.com/rmFUBDV.png" />
 </div>
