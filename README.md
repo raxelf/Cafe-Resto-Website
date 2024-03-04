@@ -28,7 +28,7 @@ Make sure you have the requirements before starting:
 
 ## ⬇️ Download
 
-[:sparkles: Download Source Code](https://github.com/raxelf/TopUp-Games-Shop-Website/archive/refs/heads/main.zip)
+[:sparkles: Download Source Code](https://github.com/raxelf/Cafe-Resto-Website/archive/refs/heads/main.zip)
 
 ## 📹 Previews
 
