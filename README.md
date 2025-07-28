@@ -11,25 +11,6 @@
 A web application designed for cafes and restaurants to manage menus, handle customer orders, and generate sales reports.
 </div>
 
-## 🤔 Getting Started
-
-Follow the below instructions to get started:
-
-1. [Make sure you have all Requirements](#requirements)
-2. [Download Source Code](#download)
-3. Open Project in any Code Editor and Enjoy!
-
-## ⚙️ Requirements
-
-Make sure you have the requirements before starting:
-
-- Any Code Editor.
-- Basic Knowledge about HTML, CSS, LARAVEL, PHP, API.
-
-## ⬇️ Download
-
-[:sparkles: Download Source Code](https://github.com/raxelf/Cafe-Resto-Website/archive/refs/heads/main.zip)
-
 ## 📹 Previews
 
 <div id="previews">
