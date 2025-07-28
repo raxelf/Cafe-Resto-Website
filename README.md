@@ -1,6 +1,6 @@
 <div id="header" align="center">
    <h1>
-    Cafe & Restaurant Website (OppaBox)
+    Cafe & Restaurant Website
   </h1>
    <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white"/>
    <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
