@@ -8,7 +8,7 @@
    <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" />
    <img src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white" />
    
-A Website made for Educational Purposes only.
+A web application designed for cafes and restaurants to manage menus, handle customer orders, and generate sales reports.
 </div>
 
 ## 🤔 Getting Started
